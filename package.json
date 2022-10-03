@@ -2,14 +2,16 @@
   "name": "newpr",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start":"node serv.js",
+    "start":"npm run lite",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "lite-server": "^2.6.1"
   }
 }

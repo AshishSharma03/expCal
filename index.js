@@ -6,7 +6,7 @@ let expense = 0;
 
 
 function AddIncome(){
-    console.log("working..")
+    // console.log("working..")
     let input1 = document.createElement("input");
     let input2 = document.createElement("input");
     let incbutton = document.createElement("button");
@@ -76,14 +76,10 @@ function DisplayItems(){
     let resetBtn = document.createElement('button');
     resetBtn.innerText= "Reset"
     resetBtn.className ="btn";
-    resetDiv.appendChild(resetBtn)
-    listItemdiv.appendChild(resetDiv)
-    resetBtn.appendChild('click',function(){
+    resetDiv.appendChild(resetBtn);
+    listItemdiv.appendChild(resetDiv);
+    resetBtn.addEventListener('click',function(){
         location.reload();
     })
-
-
-
-   
 
 }
