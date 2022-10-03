@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    display: flex;
+    height: 80vh;
+    /* flex-direction: ; */
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainer{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius:20px ;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius:5px ;
+    border: none;
+    background-color: #2f89fe;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn:hover{
+        background-color: #ffffff;
+        color: #000000;
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.incomeDiv{
+    padding: 10px;
+    display: flex;
+    gap: 5px
+}
+
+.ExpenseDiv{
+    padding: 10px;
+    display: flex;
+    gap: 5px
+}
